@@ -6,24 +6,26 @@ provides-nominal:
 provides-member:
 - ["C10MusicVideo11AppDelegate", ""]
 provides-dynamic-lookup:
-- "applicationWillTerminate"
-- "applicationDidEnterBackground"
-- "applicationWillResignActive"
-- "application"
 - "applicationWillEnterForeground"
-- "applicationDidBecomeActive"
+- "applicationDidEnterBackground"
+- "application"
+- "applicationWillResignActive"
 - "window"
+- "applicationDidBecomeActive"
+- "applicationWillTerminate"
 depends-top-level:
-- "UIWindow"
-- "UIApplicationDelegate"
 - "AppDelegate"
 - "NSObject"
-- "AnyObject"
+- "UIApplication"
 - "UIResponder"
 - "Bool"
-- "UIApplication"
+- "AnyObject"
+- !private "NSURLCache"
 - !private "BooleanLiteralType"
+- "UIWindow"
+- "UIApplicationDelegate"
 depends-member:
+- !private ["PSs9AnyObject", "NSURLCache"]
 - ["PSs9AnyObject", "application"]
 - ["PSs9AnyObject", "applicationDidBecomeActive"]
 - ["PSs9AnyObject", "applicationDidEnterBackground"]
@@ -37,11 +39,13 @@ depends-member:
 - ["PSs9AnyObject", "applicationWillResignActive"]
 - ["PSs9AnyObject", "applicationWillTerminate"]
 - ["PSs9AnyObject", "init"]
+- !private ["PSs9AnyObject", "setSharedURLCache"]
 - ["PSs9AnyObject", "window"]
 - ["PSs9AnyObject", ""]
 - ["C10MusicVideo11AppDelegate", "AnyObject"]
 - ["C10MusicVideo11AppDelegate", "Bool"]
 - ["C10MusicVideo11AppDelegate", "NSObject"]
+- !private ["C10MusicVideo11AppDelegate", "NSURLCache"]
 - ["C10MusicVideo11AppDelegate", "UIApplication"]
 - ["C10MusicVideo11AppDelegate", "UIWindow"]
 - ["C10MusicVideo11AppDelegate", "application"]
@@ -59,6 +63,7 @@ depends-member:
 - ["C10MusicVideo11AppDelegate", "deinit"]
 - ["C10MusicVideo11AppDelegate", "init"]
 - ["C10MusicVideo11AppDelegate", "window"]
+- !private ["PSs11CVarArgType", "NSURLCache"]
 - ["PSs11CVarArgType", "application"]
 - ["PSs11CVarArgType", "applicationDidBecomeActive"]
 - ["PSs11CVarArgType", "applicationDidEnterBackground"]
@@ -72,8 +77,10 @@ depends-member:
 - ["PSs11CVarArgType", "applicationWillResignActive"]
 - ["PSs11CVarArgType", "applicationWillTerminate"]
 - ["PSs11CVarArgType", "init"]
+- !private ["PSs11CVarArgType", "setSharedURLCache"]
 - ["PSs11CVarArgType", "window"]
 - ["PSs11CVarArgType", ""]
+- !private ["PSs23CustomStringConvertible", "NSURLCache"]
 - ["PSs23CustomStringConvertible", "application"]
 - ["PSs23CustomStringConvertible", "applicationDidBecomeActive"]
 - ["PSs23CustomStringConvertible", "applicationDidEnterBackground"]
@@ -87,8 +94,10 @@ depends-member:
 - ["PSs23CustomStringConvertible", "applicationWillResignActive"]
 - ["PSs23CustomStringConvertible", "applicationWillTerminate"]
 - ["PSs23CustomStringConvertible", "init"]
+- !private ["PSs23CustomStringConvertible", "setSharedURLCache"]
 - ["PSs23CustomStringConvertible", "window"]
 - ["PSs23CustomStringConvertible", ""]
+- !private ["PSs9Equatable", "NSURLCache"]
 - ["PSs9Equatable", "application"]
 - ["PSs9Equatable", "applicationDidBecomeActive"]
 - ["PSs9Equatable", "applicationDidEnterBackground"]
@@ -102,8 +111,10 @@ depends-member:
 - ["PSs9Equatable", "applicationWillResignActive"]
 - ["PSs9Equatable", "applicationWillTerminate"]
 - ["PSs9Equatable", "init"]
+- !private ["PSs9Equatable", "setSharedURLCache"]
 - ["PSs9Equatable", "window"]
 - ["PSs9Equatable", ""]
+- !private ["PSs8Hashable", "NSURLCache"]
 - ["PSs8Hashable", "application"]
 - ["PSs8Hashable", "applicationDidBecomeActive"]
 - ["PSs8Hashable", "applicationDidEnterBackground"]
@@ -117,11 +128,13 @@ depends-member:
 - ["PSs8Hashable", "applicationWillResignActive"]
 - ["PSs8Hashable", "applicationWillTerminate"]
 - ["PSs8Hashable", "init"]
+- !private ["PSs8Hashable", "setSharedURLCache"]
 - ["PSs8Hashable", "window"]
 - ["PSs8Hashable", ""]
 - ["CSo8NSObject", "AnyObject"]
 - ["CSo8NSObject", "Bool"]
 - ["CSo8NSObject", "NSObject"]
+- !private ["CSo8NSObject", "NSURLCache"]
 - ["CSo8NSObject", "UIApplication"]
 - ["CSo8NSObject", "UIWindow"]
 - ["CSo8NSObject", "application"]
@@ -137,7 +150,9 @@ depends-member:
 - ["CSo8NSObject", "applicationWillResignActive"]
 - ["CSo8NSObject", "applicationWillTerminate"]
 - ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "setSharedURLCache"]
 - ["CSo8NSObject", "window"]
+- !private ["PSo16NSObjectProtocol", "NSURLCache"]
 - ["PSo16NSObjectProtocol", "application"]
 - ["PSo16NSObjectProtocol", "applicationDidBecomeActive"]
 - ["PSo16NSObjectProtocol", "applicationDidEnterBackground"]
@@ -151,8 +166,12 @@ depends-member:
 - ["PSo16NSObjectProtocol", "applicationWillResignActive"]
 - ["PSo16NSObjectProtocol", "applicationWillTerminate"]
 - ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "setSharedURLCache"]
 - ["PSo16NSObjectProtocol", "window"]
 - ["PSo16NSObjectProtocol", ""]
+- !private ["CSo10NSURLCache", "init"]
+- !private ["CSo10NSURLCache", "setSharedURLCache"]
+- !private ["PSo21UIApplicationDelegate", "NSURLCache"]
 - ["PSo21UIApplicationDelegate", "application"]
 - ["PSo21UIApplicationDelegate", "applicationDidBecomeActive"]
 - ["PSo21UIApplicationDelegate", "applicationDidEnterBackground"]
@@ -170,6 +189,7 @@ depends-member:
 - ["CSo11UIResponder", "AnyObject"]
 - ["CSo11UIResponder", "Bool"]
 - ["CSo11UIResponder", "NSObject"]
+- !private ["CSo11UIResponder", "NSURLCache"]
 - ["CSo11UIResponder", "UIApplication"]
 - ["CSo11UIResponder", "UIWindow"]
 - ["CSo11UIResponder", "application"]
@@ -196,16 +216,17 @@ depends-nominal:
 - "PSs8Hashable"
 - "CSo8NSObject"
 - "PSo16NSObjectProtocol"
+- !private "CSo10NSURLCache"
 - "PSo21UIApplicationDelegate"
 - "CSo11UIResponder"
 depends-dynamic-lookup:
 depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/Swift.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/UIKit.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/Foundation.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/Darwin.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/Dispatch.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/ObjectiveC.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/UIKit.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/CoreImage.swiftmodule"
 interface-hash: "eb6deb7e97b205db2b1f8c4c6c87743c"

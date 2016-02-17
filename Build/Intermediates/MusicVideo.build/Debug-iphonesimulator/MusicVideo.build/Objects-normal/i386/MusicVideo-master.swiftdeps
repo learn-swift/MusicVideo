@@ -1,6 +1,7 @@
 version: "Apple Swift version 2.1.1 (swiftlang-700.1.101.15 clang-700.1.81)"
 options: "eb9d4e70a966a0a157229c38ebdd34cd"
-build_time: [509022899, 273919000]
+build_time: [509034311, 406042000]
 inputs:
-  "/Users/nnduc/Dropbox/Code/Swift/MusicVideo/MusicVideo/ViewController.swift": [509022516, 0]
-  "/Users/nnduc/Dropbox/Code/Swift/MusicVideo/MusicVideo/AppDelegate.swift": [509022516, 0]
+  "/Users/nnduc/Dropbox/Code/Swift/MusicVideo/MusicVideo/ViewController.swift": [509034307, 0]
+  "/Users/nnduc/Dropbox/Code/Swift/MusicVideo/MusicVideo/APIManager.swift": [509033798, 0]
+  "/Users/nnduc/Dropbox/Code/Swift/MusicVideo/MusicVideo/AppDelegate.swift": [509033637, 0]
