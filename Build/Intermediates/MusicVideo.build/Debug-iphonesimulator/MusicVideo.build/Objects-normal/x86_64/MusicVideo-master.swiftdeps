@@ -1,0 +1,6 @@
+version: "Apple Swift version 2.1.1 (swiftlang-700.1.101.15 clang-700.1.81)"
+options: "3abfa719fb567f72b4a2a151adc9c607"
+build_time: [509022519, 611530000]
+inputs:
+  "/Users/nnduc/Dropbox/Code/Swift/MusicVideo/MusicVideo/ViewController.swift": [509022516, 0]
+  "/Users/nnduc/Dropbox/Code/Swift/MusicVideo/MusicVideo/AppDelegate.swift": [509022516, 0]
