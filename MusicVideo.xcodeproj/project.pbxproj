@@ -17,6 +17,8 @@
 		8A40B72E1C74C1680056347F /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A40B72D1C74C1680056347F /* Constants.swift */; };
 		8A40B7301C74C20B0056347F /* MusicVideo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A40B72F1C74C20B0056347F /* MusicVideo.swift */; };
 		8A40B7351C74D47E0056347F /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A40B7341C74D47E0056347F /* Reachability.m */; };
+		8ACC99F11C7554630070C856 /* MusicVideoTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ACC99F01C7554630070C856 /* MusicVideoTVC.swift */; };
+		8ACC99F21C7554630070C856 /* MusicVideoTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ACC99F01C7554630070C856 /* MusicVideoTVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +48,7 @@
 		8A40B7321C74D47D0056347F /* MusicVideo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MusicVideo-Bridging-Header.h"; sourceTree = "<group>"; };
 		8A40B7331C74D47E0056347F /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
 		8A40B7341C74D47E0056347F /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		8ACC99F01C7554630070C856 /* MusicVideoTVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MusicVideoTVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +123,7 @@
 			isa = PBXGroup;
 			children = (
 				8A40B7041C748C340056347F /* ViewController.swift */,
+				8ACC99F01C7554630070C856 /* MusicVideoTVC.swift */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -267,6 +271,7 @@
 				8A40B7031C748C340056347F /* AppDelegate.swift in Sources */,
 				8A40B7351C74D47E0056347F /* Reachability.m in Sources */,
 				8A40B72E1C74C1680056347F /* Constants.swift in Sources */,
+				8ACC99F11C7554630070C856 /* MusicVideoTVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +280,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8A40B7181C748C340056347F /* MusicVideoTests.swift in Sources */,
+				8ACC99F21C7554630070C856 /* MusicVideoTVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
